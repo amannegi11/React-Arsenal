@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(78, 67, 67);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  
+}
+h1{
+    color: rgb(111, 168, 31);
+}
+.stopwatch{
+   background-color: rgb(50, 50, 117);
+   border-radius: 100%;
+   width: 300px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid rgb(210, 214, 210);
+}
+
+.clock{
+    /* background-color: chartreuse; */
+    width: 30%;
+    height: 10%;
+    font-size:xx-large;
+    margin-bottom: 19px;
+    color: rgb(213, 65, 70);
+    
+}
+
+button{
+    margin: 4px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(26, 1, 1);
+    font-weight: 500;
+    font-size: medium;
+}
